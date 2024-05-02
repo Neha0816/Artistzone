@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .about-us{
+    height: 100%;
+    width: 100%;
+    padding: 100px 0;
+  }
+  .pic{
+    height: auto;
+    width:  302px;
+  }
+  .about{
+    width: 1130px;
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .text{
+    width: 1000px;
+  }
+  .text h2{
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+	color: darkslateblue;
+  
+  }
+  .text h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .text p{
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    
+  }
+  .data{
+    margin-top: 30px;
+  }
+  header {
+    background: #fa4a6f;
+}
+#logo{
+    margin-top: 0px;
+}
+#logo img{
+    width: 100px;
+	height:100px;
+}
+.desktop-ss-menu{
+	position: relative;
+	height: 75px;
+}
+
+.hdr-btn-right {
+	display : inline-block;
+	position: absolute;
+	right: 0;
+	width: 700px;
+	text-align: right;
+}
+
+.nv-btn {
+	display: inline-block;
+	position:relative;
+	padding : 27px 0 28px;
+}
+
+.nv-btn-content {
+	position : relative;
+	padding: 10px 15px;
+	text-decoration: none !important;
+	color:  #fff !important;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0 12px;
+	cursor: pointer;
+
+}
+
+.nv-btn-content .fa {
+	font-weight: 700;
+}
+
+.ss-nv-search i, .ss-nv-login i {
+	padding: 0 5px;
+}
+
+a.search{
+	color: white !important;
+    text-decoration: none;
+}
+
+.nv-border-vertical{
+	border-left: 1px solid #ff9ea9;
+	margin-left: -5px;
+}
+.footer{
+	padding : 40px 0;
+	background-color: #fa4a6f;
+}
+
+.footer .social{
+	text-align: center;
+	padding-bottom: 20px;
+	color: #fff;
+}
+
+.footer .social a{
+	font-size: 24px;
+	color : inherit;
+	border : 1px solid #c9c9c9;
+	width: 40px;
+	height: 40px;
+	line-height: 38px;
+	display :inline-block;
+	text-align: center;
+	border-radius: 50%;
+	margin: 0 8px;
+	opacity: 0.75;
+}
+
+.footer .social a:hover{
+	opacity: 0.9;
+}
+
+.footer ul{
+	margin-top: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.footer ul a{
+	color: inherit;
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.footer ul li{
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.footer ul li a:hover{
+	opacity: 1;
+}
+
+.footer .copyright{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 13px;
+	color: #aaa;
+}
+   
